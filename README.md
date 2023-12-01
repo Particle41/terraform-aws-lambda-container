@@ -13,7 +13,7 @@ Example:
 
 ```hcl
 module "example" {
-  source             = "github.com/andreswebs/terraform-aws-lambda-container"
+  source             = "github.com/Particle41/terraform-aws-lambda-container"
   lambda_image_uri   = var.lambda_image_uri
   lambda_name_prefix = "example-lambda"
   lambda_description = "Does things"
